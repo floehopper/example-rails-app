@@ -1,0 +1,8 @@
+{
+  "addons": [
+    { "plan": "heroku-postgresql", "as": "PRIMARY_DATABASE" },
+    { "plan": "heroku-postgresql", "as": "CACHE_DATABASE" },
+    { "plan": "heroku-postgresql", "as": "QUEUE_DATABASE" },
+    { "plan": "heroku-postgresql", "as": "CABLE_DATABASE" }
+  ]
+}
